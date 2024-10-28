@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,3 +49,7 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# creators-web
+pagina web de CREATORS evento de premiación de creadores de contenido organizado en San Juan Argentina, creamos una landing page usando React + typescript, la idea es mejorarla al punto de que se pueda realizar votaciones dentro de la pagina.
+>>>>>>> c6587fc7ce1a277fab37d7ff3776183c344bea99
