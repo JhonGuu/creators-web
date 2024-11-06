@@ -1,0 +1,37 @@
+.bentoItem { 
+    position: relative; /* Equivale a 'relative' */
+    border-radius: 0.75rem; /* Equivale a 'rounded-xl' */
+    backdrop-filter: blur(1rem); /* Equivale a 'backdrop-blur-md' */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Equivale a 'border border-black/10' */
+    box-shadow: inset 0 4px 6px rgba(255, 255, 255, 0.1), /* Equivale a 'shadow-inner shadow-white/10' */
+                inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    grid-column: span 5 / span 5;            
+}
+
+.content { 
+  user-select: none; /* Equivale a 'select-none' */
+  display: flex; /* Equivale a 'flex' */
+  flex-direction: column; /* Equivale a 'flex-col' */
+  gap: 0.25rem; /* Equivale a 'gap-1' */
+  padding: 1.5rem; /* Equivale a 'p-6' */
+  font-size: 1.125rem; /* Equivale a 'text-lg' */
+  z-index: 20; /* Equivale a 'z-20' */
+  justify-content: flex-end; /* Equivale a 'justify-end' */
+  height: 100%; /* Equivale a 'h-full' */
+}
+
+.title { 
+  font-size: 1.875rem; /* Equivale a 'text-3xl' */
+  font-weight: 600; /* Equivale a 'font-semibold' */
+  line-height: 1.1; /* Equivale a 'text-balance', para un balance visual */
+  color: white; /* Equivale a 'text-white' */
+  margin-bottom: 1rem; /* Equivale a 'mb-4' */
+}
+
+.subtitle {
+  font-size: 1.875rem; /* Equivale a 'text-3xl' */
+  font-weight: 600; /* Equivale a 'font-semibold' */
+  color: rgba(125, 211, 252, 0.8); /* Equivale a 'text-sky-200/80' */
+  margin-top: -1rem; /* Equivale a '-mt-4' */
+  margin-bottom: 1rem; /* Equivale a 'mb-4' */
+}
