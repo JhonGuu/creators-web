@@ -38,3 +38,17 @@
         grid-column: span 4;
       }  
   }
+
+
+.imgContainer { 
+    position: absolute; /* Equivale a 'absolute' */
+    left: 0; /* Equivale a 'left-0' */
+    top: 0; /* Equivale a 'top-0' */
+    bottom: 0; /* Equivale a 'bottom-0' */
+    object-fit: cover; /* Equivale a 'object-cover' */
+    object-position: center; /* Equivale a 'object-center' */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
